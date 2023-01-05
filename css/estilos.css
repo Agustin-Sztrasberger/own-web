@@ -91,7 +91,38 @@ body{
     text-align: center;
     display: flex;
     align-items: center;
+    cursor:pointer;
 }
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	left:40px;
+	background-color:#0C9;
+	color:rgb(255, 255, 255);
+	border-radius:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+
+
+.my-float{
+	scale: 2;
+}
+
+.hide {
+    opacity:0;
+   
+}
+.show {
+    opacity:1;
+  
+}
+
 
 
 
