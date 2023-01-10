@@ -14,6 +14,11 @@
     opacity: 0;
     visibility: hidden;
   }
+  
+  #SectionName{
+    display: none;
+  }
+
   .loader:before , .loader:after {
       content: '';
       width: 15px;
@@ -22,13 +27,13 @@
       position: relative;
       margin: 0  5px  ;
       border-radius: 50%;
-      color: rgb(0, 255, 13);
+      color: rgb(0, 115, 255);
       background: currentColor;
       box-shadow: 50px 0 ,  -50px 0;
       animation: left 1s infinite ease-in-out;
     }
     .loader:after {
-      color: #fff200;
+      color: #ff0066;
       animation: right 1.1s infinite ease-in-out;
     }
 
@@ -52,30 +57,7 @@ body{
     
     
 }
-.imagen-1{
-    
-    width: 100%;
-    height: 100%;
-    background-image: url(../fotos/diseño-grafico.jpg);
-    background-position: 50%;
-    
-}
-.imagen-2{
-    
-    width: 100%;
-    height: 100%;
-    background-image: url(../fotos/diseño-web.jpg);
-    background-position: 50%;
-    
-}
-.imagen-3{
-    
-    width: 100%;
-    height: 100%;
-    background-image: url(../fotos/redes-sociales.jpg);
-    background-position: 50%;
-    
-}
+
 
 .texto{
     position: absolute;
@@ -130,6 +112,30 @@ body{
 
 
 @media (max-width: 992px) {
+    .imagen-1{
+    
+        width: 100%;
+        height: 100%;
+        background-image: url(../fotos/diseño-grafico-chico.jpg);
+        background-position: 50%;
+        
+    }
+    .imagen-2{
+        
+        width: 100%;
+        height: 100%;
+        background-image: url(../fotos/diseño-web-chico.jpg);
+        background-position: 50%;
+        
+    }
+    .imagen-3{
+        
+        width: 100%;
+        height: 100%;
+        background-image: url(../fotos/redes-sociales-chico.jpg);
+        background-position: 50%;
+        
+    }
     #columna{
         height: 33.33vh;
         padding: 0;
@@ -162,6 +168,33 @@ body{
 }
 
 @media (min-width: 992px) {
+
+    .imagen-1{
+    
+        width: 100%;
+        height: 100%;
+        background-image: url(../fotos/diseño-grafico.jpg);
+        background-position: 50%;
+        
+    }
+    .imagen-2{
+        
+        width: 100%;
+        height: 100%;
+        background-image: url(../fotos/diseño-web.jpg);
+        background-position: 50%;
+        
+    }
+    .imagen-3{
+        
+        width: 100%;
+        height: 100%;
+        background-image: url(../fotos/redes-sociales.jpg);
+        background-position: 50%;
+        
+    }
+
+
     #columna{
         height: 100vh;
         padding: 0;
